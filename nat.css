@@ -31,6 +31,17 @@ h1, h2, h3, h4, h5 {
   padding: 0px 40px;
 }
 
+/* Background */
+.bkg-image{
+  background-repeat: no-repeat;
+}
+.bkg-image-center{
+  background-position: center;
+}
+.bkg-image-cover{
+  background-size: cover;
+}
+
 /* z-index */
 .z-index{
   z-index: 3;
@@ -38,6 +49,9 @@ h1, h2, h3, h4, h5 {
 
 /* Text */
 
+.text-center{
+	text-align:center;
+}
 .text-primary {
   color: rgb(100, 255, 218);
   margin: 0px 0px 20px 3px;
@@ -57,7 +71,9 @@ h1, h2, h3, h4, h5 {
   top: 50%;
   transform: translate(-50%,-50%);
 }
-
+.center-margin{
+	margin: 0 auto;
+}
 /* Colors primary */
 
 .bg-primary {
@@ -67,7 +83,12 @@ h1, h2, h3, h4, h5 {
 .t-color-primary {
   color: rgb(204, 214, 246)
 }
-
+.t-color-white{
+  color:#FFF!important;
+}
+.t-color-black{
+	color:#000;
+}
 /* Position */
 
 .position-static {
@@ -145,7 +166,6 @@ h1, h2, h3, h4, h5 {
 
 .justify-content-araund {
   justify-content: space-around;
-  justify-content: space-between;
 }
 
 .justify-content-between {
